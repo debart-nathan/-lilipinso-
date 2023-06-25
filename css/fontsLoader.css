@@ -1,0 +1,76 @@
+/**
+* 
+*       Load all the fonts needed for the website.
+*
+**/
+
+
+@font-face {
+    font-family: futura-light-webfont-W;
+    src: url(/fonts/futura-light-webfont.woff);
+
+}
+
+@font-face {
+    font-family: futura-light-webfont-W1; 
+    src: url(/fonts/futura-light-webfont.woff2);
+}
+
+@font-face {
+    font-family: futura_book_font-webfont-W;
+    src: url(/fonts/futura_book_font-webfont.woff);
+}
+
+@font-face {
+    font-family:  futura_book_font-webfont-W1;
+    src: url(/fonts/futura_book_font-webfont.woff2);
+}
+
+@font-face {
+    font-family: futura_medium_bt-webfont-W;
+    src: url(/fonts/futura_medium_bt-webfont.woff);
+}
+@font-face {
+    font-family: futura_medium_bt-webfont-W1;
+    src: url(/fonts/futura_medium_bt-webfont.woff2);
+}
+@font-face {
+    font-family: nimbus-sans-lregular-webfont-W;
+    src: url(/fonts/nimbus-sans-l.regular-webfont.woff);
+}
+@font-face {
+    font-family: nimbus-sans-lregular-webfont-W1;
+    src: url(/fonts/nimbus-sans-l.regular-webfont.woff2);
+}
+@font-face {
+    font-family: nimbusromno9l-regita-webfont-W ;
+    src: url(/fonts/nimbusromno9l-regita-webfont.woff);
+}
+@font-face {
+    font-family: nimbusromno9l-regita-webfont-W1;
+    src: url(/fonts/nimbusromno9l-regita-webfont.woff2);
+}
+@font-face {
+    font-family:sofia-pro-light-webfont-W ;
+    src: url(/fonts/sofia-pro-light-webfont.woff);
+}
+@font-face {
+    font-family: sofia-pro-light-webfont-W1 ;
+    src: url(/fonts/sofia-pro-light-webfont.woff2);
+}
+@font-face {
+    font-family: sofia_pro_regular-webfont-W ;
+    src: url(/fonts/sofia_pro_regular-webfont.woff);
+}
+@font-face {
+    font-family:sofia_pro_regular-webfont-W1 ;
+    src: url(/fonts/sofia_pro_regular-webfont.woff2);
+}
+@font-face {
+    font-family: sofia_pro_semibold-webfont-W;
+    src: url(/fonts/sofia_pro_semibold-webfont.woff);
+}
+@font-face {
+    font-family: sofia_pro_semibold-webfont-W1 ;
+    src: url(/fonts/sofia_pro_semibold-webfont.woff2);
+}

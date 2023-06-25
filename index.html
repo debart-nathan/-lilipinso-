@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/fontsLoader.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>Lilipinso</title>
+  </head>
+  <body>
+    <header id="mainHeader">
+      <p><em>Free shipping on orders above &dollar;69.00</em></p>
+      <nav id="infoNav" aria-label="Information">
+        <ul>
+          <li>
+            <a href="http://"><em>About</em></a>
+          </li>
+          <li>
+            <a href="http://"><em>FAQ's</em></a>
+          </li>
+          <li>
+            <a href="http://"><em>Location</em></a>
+          </li>
+          <li>
+            <a href="http://"><em>Support</em></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--End mainHeader-->
+    <span id="mainSpan">
+    <h1><img src="images/logo.png" alt="Lilipinso" /></h1>
+    <nav id="mainNav" aria-label="Main navigation section">
+      <div id="langSelect" name="langSelect">
+        <select>
+          <option>
+            <p>en</p>
+            <p>US</p>
+          </option>
+          <option>fr</option>
+        </select>
+      </div>
+      <nav id="pageNav" aria-label="Web Page navigation">
+        <p id="afficheNav"><a href="http://">AFFICHES</a></p>
+        <p><a href="http://">STICKERS</a></p>
+        <p><a href="http://">PAPIERS PEINTS</a></p>
+        <p><a href="http://">TAPIS</a></p>
+        <p><a href="http://">PEINTURE</a></p>
+      </nav>
+
+      <nav id="iconNav" aria-label="Others Navigation">
+        <p>
+          <img src="/images/loupe.png" alt="search" /> |
+          <img src="/images/coeur.png" alt="like" /> |
+          <img src="/images/bonhomme.png" alt="profile" /> |
+          <img src="/images/caddie.png" alt="shopping cart" />
+        </p>
+      </nav>
+    </nav>
+    <!--End mainNav-->
+    <main id="mainMain">
+      <section id="gerneralServices">
+        <span id="mainServ">
+          <div id="simpYoEv">
+            <img
+              src="/images/banniere_fleurie.png"
+              alt="Introducing design: simplify your everything" />
+            <a id="simYoEvButton" href="#"><p>BUY IT NOW</p></a>
+          </div>
+        </span>
+        <span id="secondServ">
+          <span>
+            <a href="#">
+              <img
+                src="/images/cocotka.png"
+                alt="Feature Designers: Meet Cocotka. Click to Buy"
+            /></a>
+          </span>
+          <span id="papPeiEv"
+            ><a>
+              <div>
+                <p id="pPEtitle">PAPIERS PENTS</p>
+                <p id="pPEsubT">Motifs floraux</p>
+                <p id="pPEBI">BUY IT NOW</p>
+              </div>
+            </a></span
+          >
+        </span>
+      </section>
+      <!--End generalServices-->
+      <section id="featuredProduct">
+        <h2>Featured Products</h2>
+        <nav id="productsNav" aria-label="Products navigation">
+          <fieldset id="productsCategory">
+            <legend hidden>productCategory</legend>
+
+            <input type="radio" name="pCategory" id="pCat1" hidden />
+            <label for="pCat1"><p>FURNITURE</p></label>
+
+            <input type="radio" name="pCategory" id="pCat2" hidden />
+            <label for="pCat2">
+              <p>WALL DECALS</p>
+            </label>
+
+            <input type="radio" name="pCategory" id="pCat3" hidden />
+            <label for="pCat3">
+              <p>TARIFS</p>
+            </label>
+
+            <input type="radio" name="pCategory" id="pCat4" hidden />
+            <label for="pCat4">
+              <p>WALLPAPERS</p>
+            </label>
+
+            <input type="radio" name="pCategory" id="pCat5" hidden />
+            <label for="pCat5">
+              <p>PEINTURE</p>
+            </label>
+          </fieldset>
+
+          <fieldset id="productsCarousel">
+            <legend hidden>productCarousel</legend>
+            <label for="pCar1" aria-hidden="false" hidden>page 1</label>
+            <input
+              type="radio"
+              name="pCarousel"
+              id="pCar1"
+              aria-selected="true" />
+            <label for="pCar2" aria-hidden="false" hidden>page 2</label>
+            <input type="radio" name="pCarousel" id="pCar2" />
+            <label for="pCar3" aria-hidden="false" hidden>page 3</label>
+            <input type="radio" name="pCarousel" id="pCar3" />
+          </fieldset>
+        </nav>
+        <!--END productNav-->
+        <span id="pCarousel">
+          <span id="item1">
+            <img src="/images/balayette.png" alt="picture of item 1" />
+            <p id="statutItem1" class="pStatus">On Sale!</p>
+            <p id="salesItem1" class="pSales">-20%</p>
+            <span id="toolsItem1" hidden> </span>
+            <p id="itemName" aria-label="product Name">Nom du produit</p>
+            <span id="pricesItem1"
+              ><p id="ogPriceItem1"></p>
+              <p id="retailPriceItem1"></p
+            ></span>
+          </span>
+
+          <span id="item2">
+            <img src="/images/balayette.png" alt="picture of item 2" />
+            <p id="statutItem2" class="pStatus">On Sale!</p>
+            <p id="salesItem2" class="pSales">-20%</p>
+            <span id="toolsItem2" hidden> </span>
+            <p id="itemName" aria-label="product Name">Nom du produit</p>
+            <span id="pricesItem2"
+              ><p id="ogPriceItem2"></p>
+              <p id="retailPriceItem2"></p
+            ></span>
+          </span>
+          <!--END item2-->
+          <span id="item3">
+            <img src="/images/balayette.png" alt="picture of item 3" />
+            <p id="statutItem3" class="pStatus" hidden></p>
+            <p id="salesItem3" class="pSales" hidden></p>
+            <span id="toolsItem3" hidden> </span>
+            <p id="itemName" aria-label="product Name">Nom du produit</p>
+            <span id="pricesItem3"
+              ><p id="ogPriceItem3"></p>
+              <p id="retailPriceItem3"></p
+            ></span>
+          </span>
+          <!--END item3-->
+          <span id="item4">
+            <img src="/images/balayette.png" alt="picture of item 4" />
+            <p id="statutItem4" class="pStatus" hidden></p>
+            <p id="salesItem4" class="pSales" hidden></p>
+            <span id="toolsItem2" hidden> </span>
+            <p id="itemName" aria-label="product Name">Nom du produit</p>
+            <span id="pricesItem4"
+              ><p id="ogPriceItem4"></p>
+              <p id="retailPriceItem4"></p
+            ></span>
+          </span>
+          <!--END item4-->
+        </span>
+        <!--End pCarousel-->
+      </section>
+      <!--End featuredProduct-->
+      <section id="thisWeek">
+        <h2>THIS WEEK</h2>
+        <h3>Stay inspired with our Collections</h3>
+        <hr class="smallHLine" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae
+          velit porta, mollis nibh ac, fringilla risus. Nam eget nisi lorem.
+          Pellentesque tempor odio massa, quis aliquam nunc efficitur vitae.
+          Orci varius natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Ut eget purus.
+        </p>
+        <img
+          src="/images/banniere2.png"
+          alt="Image of design examples with dynamic price pop up" />
+      </section>
+      <section id="whatHappens">
+        <span>
+          <h2>WHAT HAPPEN'S</h2>
+          <h3>Weekly Promotions</h3>
+          <hr class="smallHLine" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque maximus lectus sed maximus tempus. Quisque id quam
+            faucibus, lobortis sem id, gravida odio. Cras mattis scelerisque
+            justo quis mollis. Donec mollis, risus ac volutpat tincidunt, enim
+            lectus tincidunt ipsum, nec mattis tortor nisl nec nunc. Aliquam
+            imperdiet ac eros at dapibus. Nullam eleifend fringilla turpis
+            egestas fringilla. Pellentesque eu tortor.
+          </p>
+
+          <a href="#"><p>VIEW PROMOTIONS</p></a>
+        </span>
+        <img
+          src="/images/bb.png"
+          alt="Image of a baby room using Lilinso design" />
+      </section>
+      <section id="followUs">
+        <h2>FOLLOW US</h2>
+        <h3>Share your room on Instagram</h3>
+        <hr class="smallHLine" />
+        <span id="sharedContent">
+          <img src="/images/cubes2.png" alt="picture of shared content 1" />
+          <img src="/images/cubes2.png" alt="picture of shared content 2" />
+          <img src="/images/cubes2.png" alt="picture of shared content 3" />
+          <img src="/images/cubes2.png" alt="picture of shared content 4" />
+        </span>
+      </section>
+      <section id="modality">
+        <span>
+          <img src="/images/camion.png" alt="picture of a shipping truck" />
+          <p>FREE SHIPPING WORLDWIDE</p>
+          <p>Free orders over €150</p>
+        </span>
+        <hr class="verticalFadedLine" />
+        <span>
+          <img
+            src="/images/fleche-qui-tournent.png"
+            alt="picture of arrow turning in circle" />
+          <p>FREE RETURN EXCHANGE</p>
+          <p>21 days free return policy</p>
+        </span>
+        <hr class="verticalFadedLine" />
+        <span>
+          <img src="/images/casque.png" alt="picture of an audio headset" />
+          <p>QUALITY SUPPORT 24/7</p>
+          <p>Top notch customer services</p>
+        </span>
+      </section>
+    </main>
+    <!--End mainMain-->
+</span>
+<!--End mainSpan-->
+    <footer id="mainFooter">
+      <span>
+        <nav aria-label="Company information">
+          <p>COMPANY</p>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Store locator</a></li>
+            <li><a href="#">Team Member</a></li>
+            <li><a href="#">Affiliate</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Information">
+          <p>INFORMATIONS</p>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Store locator</a></li>
+            <li><a href="#">Team Member</a></li>
+            <li><a href="#">Affiliate</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Information">
+          <p>INFORMATIONS</p>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Store locator</a></li>
+            <li><a href="#">Team Member</a></li>
+            <li><a href="#">Affiliate</a></li>
+          </ul>
+        </nav>
+      </span>
+      <a href="#mainHeader">
+        <img
+          id="toTop"
+          src="/images/fleche.png"
+          alt="click to return to the top" />
+      </a>
+    </footer>
+    <!--End mainFooter-->
+  </body>
+</html>
